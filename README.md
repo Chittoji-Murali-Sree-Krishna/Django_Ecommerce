@@ -23,3 +23,21 @@ we use the admin to create or delete items of the page and we import this from m
 we use this for creating the customers, products, order, orderitem, shippingaddress
 ## views.py
 we use this for rendering the items in the page
+### store
+main store displays all the items
+### cart
+this is a cart page will display items in cart
+### checkout
+this is to render checkout page
+### updateItem
+this for increasing or decreasing the items in the cart
+### processOrder
+this for transaction id so that it will differentiate from each other
+## urls.py 
+this contains the views and set them the url
+# register
+## templates
+### register
+- register.html // this is a login page using django syntax
+### registration
+- signup.html // this is a signup page using django syntax
