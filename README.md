@@ -41,3 +41,7 @@ this contains the views and set them the url
 - register.html // this is a login page using django syntax
 ### registration
 - signup.html // this is a signup page using django syntax
+## forms.py 
+this is for the django signup customization
+## views.py
+this is to check wheter the details entered are correct or false, if its true it will save if not it wont save
