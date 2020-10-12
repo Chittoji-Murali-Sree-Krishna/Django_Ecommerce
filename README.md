@@ -1,10 +1,10 @@
 # mystore
-- this is a basic commerce app like amazon or flipkart
-- in this we are using two apps one is for login, signup and app itself
+1. this is a basic commerce app like amazon or flipkart
+1. in this we are using two apps one is for login, signup and app itself
 ## installed apps in settings.py
-- crispy_forms // to use the bootstrap
-- register.apps.RegisterConfig // for the login and signup 
-- store.apps.StoreConfig // for the for store app
+1. crispy_forms  >to use the bootstrap
+1. register.apps.RegisterConfig  >for the login and signup 
+1. store.apps.StoreConfig  >for the for store app
 ## urls.py
 - in this we are using the templates and static files so we have to define the paths for that
 ```python
