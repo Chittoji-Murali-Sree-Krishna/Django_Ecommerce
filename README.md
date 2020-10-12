@@ -7,9 +7,11 @@
 - store.apps.StoreConfig // for the for store app
 ## urls.py
 - in this we are using the templates and static files so we have to define the paths for that
-- path('',include('store.urls'))
-- path('',include('django.contrib.auth.urls'))
-- urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+```python
+path('',include('store.urls'))
+ path('',include('django.contrib.auth.urls'))
+ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+ ```
 # store 
 ## templates
 ### store 
