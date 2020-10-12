@@ -46,4 +46,4 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ## forms.py 
 >this is for the django signup customization
 ## views.py
-this is to check wheter the details entered are correct or false, if its true it will save if not it wont save
+>this is to check wheter the details entered are correct or false, if its true it will save if not it wont save
