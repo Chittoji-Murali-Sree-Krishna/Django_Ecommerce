@@ -15,10 +15,10 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 # store 
 ## templates
 ### store 
-1. base.html // this is base page which acts as parent page for other pages
-1. cart.html // this is cart page
-1. checkout.html // this is final checkout page
-1. store.html // this is store page which will render all the items
+1. **base.html**  _this is base page which acts as parent page for other pages_
+1. **cart.html**  _this is cart page_
+1. **checkout.html**  _this is final checkout page_
+1. **store.html**  _this is store page which will render all the items_
 ## admin.py 
 >we use the admin to create or delete items of the page and we import this from models
 ## models.py
