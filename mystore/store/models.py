@@ -4,9 +4,6 @@ from django.contrib.auth.models import User
 # Create your models here.
 
 
-
-
-
 class Product(models.Model):
     name = models.CharField(max_length=200)
     price = models.DecimalField(max_digits=9, decimal_places=2)
