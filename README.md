@@ -1,5 +1,5 @@
-# mystore
-1. this is a basic commerce app like amazon or flipkart
+# wekart
+1. this is a basic commerce app similar to amazon or flipkart
 1. in this we are using two apps one is for login, signup and app itself
 ## installed apps in settings.py
 1. **base.apps.BaseConfig**  _for the for store app & registration_
