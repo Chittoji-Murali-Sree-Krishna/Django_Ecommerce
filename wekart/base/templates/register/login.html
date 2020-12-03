@@ -1,0 +1,35 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block nav %}
+Login Page
+{% endblock %}
+{% block content %}
+<center>
+<div class="login">
+<h1>Login Page</h1>
+    <form action="" method="POST">
+    {% csrf_token %}
+        <table>
+            <tr>
+                <td><h3>UserName:</h3></td>
+                <td><input type="text" name="username" placeholder="username..."></td>
+            </tr>
+            <tr>
+                <td><h3>Password:</h3></td>
+                <td><input type="Password" name="password" placeholder="password..."></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit" class="btn btn-sm btn-warning">
+                        <b>Login</b></button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div class="llink"> 
+        <p>Not a User? <a href="{% url 'signup' %}">click here..</a></p>
+    </div>
+</div>
+</center>
+{% endblock %}
