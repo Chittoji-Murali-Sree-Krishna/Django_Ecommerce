@@ -1,6 +1,6 @@
 # wekart
 1. this is a basic commerce app similar to amazon or flipkart
-1. in this we are using two apps one is for login, signup and app itself
+1. in this base is an app which handels all the functinality of the app
 ## installed apps in settings.py
 1. **base.apps.BaseConfig**  _for the for store app & registration_
 ## urls.py
