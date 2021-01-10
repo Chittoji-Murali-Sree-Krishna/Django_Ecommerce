@@ -1,5 +1,4 @@
 
-<img src="https://user-images.githubusercontent.com/62329524/104125001-f4d22f00-534b-11eb-98d4-838393b9083f.png">
 # wekart
 1. this is a basic commerce app similar to amazon or flipkart
 1. in this base is an app which handels all the functinality of the app
