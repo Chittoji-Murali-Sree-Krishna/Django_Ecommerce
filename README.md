@@ -31,3 +31,4 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 >we use this for creating the customers, products, order, orderitem, shippingaddress
 ## views.py
 >we use this for rendering the items in the page & validating the signup and login
+<img src="https://user-images.githubusercontent.com/62329524/104125001-f4d22f00-534b-11eb-98d4-838393b9083f.png">
